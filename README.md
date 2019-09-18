@@ -12,8 +12,8 @@ ReactJS version 16.4.1
 ```
 ### Installing
 Make sure you already installed virtual environment for django in your computer.
-#open first terminal
 ```
+#open first terminal
 git clone https://github.com/bossajie/CRUD-Django-React.js.git
 cd CRUD-Django-React.js
 virtualenv environment
