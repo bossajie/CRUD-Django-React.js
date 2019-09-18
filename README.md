@@ -14,6 +14,7 @@ react-hot-loader is working.
 ```
 ### Installing
 Make sure you already installed virtual environment for django in your computer.
+#open first terminal
 ```
 git clone https://github.com/bossajie/CRUD-Django-React.js.git
 cd CRUD-Django-React.js
@@ -21,9 +22,12 @@ virtualenv environment
 environment\scripts\activate
 pip install -r requirements.txt
 npm install
+python manage.py createsuperuser  <--*optional* (create account to admin for django admin dashboard)
+python manage.py makemigrations
+python manage.py migrate
 python manage.py runserver
 
-# open another terminal
+# open your 2nd/another terminal
 node server.js
 
 open to your browser: 127.0.0.1:8000/
