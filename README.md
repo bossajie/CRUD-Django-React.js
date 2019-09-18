@@ -1,7 +1,6 @@
 # CRUD-Django-React.js
 Basic C-reate R-etrieve U-pdate D-elete app using Django as backend and React.js as frontent
 ## Getting Started
-Check the `package.json` file to check some versions of dependencies. 
 We are using
 ```
 Please use npm version that is >= 3.0.0 and < 5.0.0
@@ -10,7 +9,6 @@ ReactJS 16 is not working on latest version of node.js
 
 Django 1.11
 ReactJS version 16.4.1
-react-hot-loader is working.
 ```
 ### Installing
 Make sure you already installed virtual environment for django in your computer.
